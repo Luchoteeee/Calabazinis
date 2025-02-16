@@ -1,0 +1,252 @@
+/* Estilos generales */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color: #353333;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.664); /* Naranja semitransparente */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+}
+
+/* Botón estilo EA FC 25 */
+button {
+    background-color: #fa9c2a;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 0.6px;
+}
+
+button:hover {
+    background-color: #d9534f;
+}
+.videos-container {
+    text-align: center;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+iframe {
+    margin: 20px;
+    border-radius: 10px;
+}
+.logo {
+    width: 130px; /* Ajusta el tamaño según necesites */
+    height: 130px;
+    margin-top: 42px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 8.5px;
+    display: inline-block; /* Para que el fondo solo cubra el texto */
+    border-radius: 30px; /* Bordes redondeados */
+}
+h1 {
+    position: relative;
+    z-index: 2; /* Asegura que el texto esté encima */
+}
+.videos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los videos horizontalmente */
+    justify-content: center; /* Asegura que se mantengan alineados */
+    text-align: center; /* Centra el texto */
+}
+@media (max-width: 768px) {
+    .videos-container {
+        text-align: center;
+    }
+
+    .video-wrapper {
+        width: 90%; /* Reduce el ancho en móviles */
+        max-width: 400px;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.imagen-bajo-boton {
+    display: block; /* Asegura que esté debajo del botón */
+    margin: 15px auto; /* Centra la imagen y le da espacio */
+    width: 340px; /* Ajusta el tamaño (puedes modificarlo) */
+    height: auto; /* Mantiene la proporción */
+}
+.texto-arriba {
+    margin-top: 10px; /* Ajusta el espacio entre el texto y la imagen */
+}
+.mi-titulo {
+    position: relative;
+    top: 0px; /* Baja el texto sin afectar la imagen */
+}
+.contenedor-integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.integrante {
+    width: 250px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: white;
+}
+
+.integrante img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover;
+}
+.boton-inicio {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff6600; /* Naranja */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.boton-inicio:hover {
+    background-color: #cc5500; /* Naranja más oscuro al pasar el mouse */
+}
+.contenedor-botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espacio entre los botones */
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+video {
+    width: 380px; /* Ajusta el tamaño según necesites */
+    border-radius: 25px;
+}
+.boton-inicio {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff6600; /* Naranja */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.boton-inicio:hover {
+    background-color: #cc5500; /* Naranja más oscuro al pasar el mouse */
+}
+h1 {
+    background: rgba(0, 0, 0, 0.438); /* Fondo negro semitransparente */
+    color: white; /* Texto en blanco */
+    padding: 15px 30px;
+    border-radius: 25px; /* Bordes redondeados */
+    display: inline-block; /* Ajusta el tamaño al texto */
+    text-align: center;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px; /* Ajusta la distancia hacia abajo */
+}
+.contenedor-videos {
+    margin-top: 60px; /* Ajusta según necesites */
+}
+h1 {
+    background: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+    color: white; /* Texto en blanco */
+    padding: 15px 30px;
+    border-radius: 40px; /* Bordes redondeados */
+    display: inline-block; /* Ajusta el tamaño al texto */
+    text-align: center;
+    max-width: 80%; /* Para que no ocupe todo el ancho */
+    margin: 20px auto; /* Centrar */
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+iframe {
+    width: 80%;
+    max-width:400px;
+    height: 190px;
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
