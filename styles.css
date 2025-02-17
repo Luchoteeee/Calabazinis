@@ -411,48 +411,7 @@ iframe {
 
 }
 
-.sidebar {
-    width: 50px;
-    position: fixed;
-    left: -80px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    border-radius: 20px;
-    z-index: 1000;
-    transition: left 1s ease-out, opacity 1s ease-out;
-    opacity: 0;
-}
-
-.sidebar a img {
-    border-radius: 9px;
-    transition: transform 0.3s;
-}
-
-.sidebar a img:hover {
-    transform: scale(1.2);
-}
-
-.sidebar.visible {
-    left: 10px;
-    opacity: 1;
-}
 
 
-.tiktok img{
-    width: -40px !important;
-    height: 62px !important;
-    display: block;
-    margin-left: -6px;
-}
 
-.instagram img{
-    width: 85px !important;
-    height: 50px !important;
-    display: block;
-    margin-left: -17px;
-}
+
