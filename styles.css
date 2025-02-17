@@ -246,9 +246,10 @@ iframe {
 
 .integrante {
     width: 280px;  /* Ajusta el ancho del recuadro */
-    padding: 5px;  /* Espaciado interno */
-    border-radius: 10px;  /* Bordes redondeados (opcional) */
+    padding: 15px;  /* Espaciado interno */
+    border-radius: 30px;  /* Bordes redondeados (opcional) */
     text-align: center;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.555); /* Fondo semi-transparente */
     margin-top: 20px;
 }
@@ -266,29 +267,192 @@ iframe {
 
 }
 
+.desc-lucho {
+    margin-top: -16px;
 
 
+}
+.desc-juanse {
+    margin-top: -18px;
 
 
+}.desc-juan {
+    margin-top: -18px;
 
 
+}.desc-sergio {
+    margin-top: -20px;
 
 
+}.desc-bola {
+    margin-top: -18px;
 
 
+}.desc-antuan {
+    margin-top: -16px;
 
 
+}.desc-cabeza {
+    margin-top: -16px;
 
 
+}
+
+.foto-lucho {
+    margin-right: -10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.foto-juanse {
+    margin-right: -10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.foto-juan {
+    margin-right: -10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.foto-sergio {
+    margin-right: -10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.foto-bola {
+    margin-right: -7px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.foto-antuan {
+    margin-right: -3px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}  
+
+.foto-cabeza {
+    margin-right: -1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-lucho {
+    margin-right: 60px;
+    
+}
+
+.name-juanse {
+    margin-right: 50px;
+
+}
+
+.name-juan {
+    margin-right: 70px;
+
+}
+
+.name-sergio {
+    margin-right: 50px;
+
+}
+
+.name-bola {
+    margin-right: 70px;
+
+}
+
+.name-antuan {
+    margin-right: 40px;
+
+}
+
+.name-cabeza {
+    margin-right: 50px;
+
+}
+
+.btn-instagram-lucho {
+    position: absolute;
+    top: -5px;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.btn-instagram-lucho img {
+    width: 45px;
+    height: 45px;
+    border-radius: 9px;
+    transition: transform 0.3s;
+
+}
+
+.btn-instagram-lucho img:hover {
+    transition: scale(1.2);
+
+}
+
+.sidebar {
+    width: 50px;
+    position: fixed;
+    left: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 1000;
+    transition: left 1s ease-out, opacity 1s ease-out;
+    opacity: 0;
+}
+
+.sidebar a img {
+    border-radius: 9px;
+    transition: transform 0.3s;
+}
+
+.sidebar a img:hover {
+    transform: scale(1.2);
+}
+
+.sidebar.visible {
+    left: 10px;
+    opacity: 1;
+}
 
 
+.tiktok img{
+    width: -40px !important;
+    height: 62px !important;
+    display: block;
+    margin-left: -6px;
+}
 
-
-
-
-
-
-
-
-
-
+.instagram img{
+    width: 85px !important;
+    height: 50px !important;
+    display: block;
+    margin-left: -17px;
+}
