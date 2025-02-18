@@ -447,4 +447,27 @@ iframe {
     background-color: #d66b00;  /* Un tono más oscuro de naranja */
 }
 
+a.btn {
+    display: inline-block;
+    background-color: #ff7f00;  
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn {
+    -webkit-appearance: none; /* Evita que Safari sobrescriba estilos */
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ff7f00;
+}
+
+.btn {
+    z-index: 10;
+    opacity: 1;
+    position: relative;
+}
+
+
+
 
